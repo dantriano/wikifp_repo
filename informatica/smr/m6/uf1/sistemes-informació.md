@@ -1,16 +1,16 @@
 ---
-title: Instal·lació servidor Windows
+title: Sistemes de informació
 description: 
 published: true
-date: 2022-02-09T14:07:22.649Z
-tags: 
+date: 2021-11-07T16:54:34.964Z
+tags: seguridad
 editor: markdown
-dateCreated: 2022-02-09T11:46:36.005Z
+dateCreated: 2021-07-07T00:31:21.043Z
 ---
 
 - :books: **Cicle Formatiu**: Sistemes Microinformatics i Xarxes
-- :notebook_with_decorative_cover: **Modul**: M4 - Sistemes Operatius en Xarxa
-- :calendar: **Durada**: 8h
+- :notebook_with_decorative_cover: **Modul**: M6 - Seguretat informatica
+- :calendar: **Durada**: 12h
 - :computer: **Material necessari**:PC
 - :busts_in_silhouette: **Agrupació**: Per treballar en grup o individualment
 
@@ -22,9 +22,9 @@ dateCreated: 2022-02-09T11:46:36.005Z
 {.links-list}
 
 # :cinema: Presentacions
-<p align="center"><iframe src="https://docs.google.com/presentation/d/1qa_I7NfkmivkkdyP7MuP6aWkyItOsqNZ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+<p align="center"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQcyU6r1KxpekXlswftYzcRkkIM9CEp1ILF_zh5JgUR-jHC7OAyaYpZkyk8XqxYvTzQ325XR7huB68c/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 
-[Abrir](https://docs.google.com/presentation/d/1qa_I7NfkmivkkdyP7MuP6aWkyItOsqNZ/pub?start=false&loop=false&delayms=60000)
+[Abrir](https://docs.google.com/presentation/d/e/2PACX-1vQcyU6r1KxpekXlswftYzcRkkIM9CEp1ILF_zh5JgUR-jHC7OAyaYpZkyk8XqxYvTzQ325XR7huB68c/pub?start=false&loop=false&delayms=60000)
 
 # :orange_book: Apunts
 
@@ -65,12 +65,12 @@ Son los mecanismo y herramientas de **seguridad lógica** los que tienen como ob
   * **Realizar particiones de disco**: Guardar la información en particiones de disco diferentes a las del SO.
   
   # :pencil: Exercicis
-  **:thought_balloon:Activitats**
+  **:thought_balloon:Teorics**
   
-1. [Diferències client<->servidor](activitat1)
-2. [Servei de xarxa](xarxa)
+1. [Seguridad Pasiva](ejercicios-seguridad-pasiva)
+1. [Seguridad en CPD](ejercicios-seguridad-cpd)
   
   **:busts_in_silhouette:Pràctiques**
   
-1.   [Instal·lació Windows Server](install-win-server)
+1.   [Llavero USB](practica-llavero-usb)
 1.   [Autentificación dos pasos](practica-autenticacion-dos-pasos)
