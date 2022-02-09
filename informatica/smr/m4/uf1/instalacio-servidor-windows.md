@@ -2,7 +2,7 @@
 title: Instal·lació servidor Windows
 description: 
 published: true
-date: 2022-02-09T14:09:56.423Z
+date: 2022-02-09T14:14:32.812Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T11:46:36.005Z
@@ -28,13 +28,10 @@ dateCreated: 2022-02-09T11:46:36.005Z
 
 # :orange_book: Apunts
 
-## Seguridad pasiva y seguridad activa
-La **seguridad pasiva** está formada por aquellas medidas de seguridad que se implantan para, una vez producido el incidente de seguridad, minimizar su repercusión y facilitar la recuperación del sistema
-  * Alarmas de acceso no autorizado
-  * Análisis de registros
-  * Sistema de alimentación ininterrumpidos
-  * Copias de seguridad de los datos
- 
+## Xarxa informàtica o xarxa d'ordinadors
+
+Una xarxa de computadores, també anomenada xarxa d'ordinadors o xarxa informàtica, és un **conjunt d'equips connectats** per mitjà de cables, senyals, ones o qualsevol altre mètode de transport de dades, que **comparteixen informació** (arxius), **recursos** (CD‐ROM, impressores, etc.) **i serveis** (accés a internet, e‐mail, xat, jocs, etc.).
+
 La **seguridad activa** comprende el conjunto de defensas o medidas cuyo objetivo es evitar o reducir los riesgos que amenazan al sistema.
   * Evitar el acceso a la información a usuarios no autorizados
   * Evitar la entrada de virus
