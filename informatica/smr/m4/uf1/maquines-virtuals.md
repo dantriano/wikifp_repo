@@ -2,7 +2,7 @@
 title: Màquines Virtuals
 description: 
 published: true
-date: 2022-02-09T17:29:14.706Z
+date: 2022-02-10T15:53:11.119Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T17:24:11.736Z
@@ -43,3 +43,4 @@ Dintre d'aquestes xarxes d'ordinadors trobem l'estructura de servidor i client.
   **:thought_balloon:Activitats**
   
 1. [Instal·la i crea una MV](VM)
+2. [Aturada virtual amb windows](aturada)
