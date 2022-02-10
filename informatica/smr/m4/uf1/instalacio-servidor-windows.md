@@ -2,7 +2,7 @@
 title: Instal·lació servidor Windows
 description: 
 published: true
-date: 2022-02-10T16:02:50.597Z
+date: 2022-02-10T16:04:32.503Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T11:46:36.005Z
@@ -26,9 +26,9 @@ dateCreated: 2022-02-09T11:46:36.005Z
 
 [Abrir](https://docs.google.com/presentation/d/1qa_I7NfkmivkkdyP7MuP6aWkyItOsqNZ/pub?start=false&loop=false&delayms=60000)
 
-<p align="center"><iframe src="https://docs.google.com/presentation/d/14CmS34WEOd22PVeYUrUT8BMrwCmCGrEM/edit?usp=sharing&ouid=109226663578013312591&rtpof=true&sd=true/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+<p align="center"><iframe src="https://docs.google.com/presentation/d/14CmS34WEOd22PVeYUrUT8BMrwCmCGrEM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 
-[Abrir](https://docs.google.com/presentation/d/14CmS34WEOd22PVeYUrUT8BMrwCmCGrEM/edit?usp=sharing&ouid=109226663578013312591&rtpof=true&sd=true/pub?start=false&loop=false&delayms=60000)
+[Abrir](https://docs.google.com/presentation/d/14CmS34WEOd22PVeYUrUT8BMrwCmCGrEM//pub?start=false&loop=false&delayms=60000)
 
 # :orange_book: Apunts
 
