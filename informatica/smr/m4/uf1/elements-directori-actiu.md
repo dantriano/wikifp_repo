@@ -2,7 +2,7 @@
 title: Creació d'elements de l'Active Directory
 description: 
 published: true
-date: 2022-02-10T16:36:41.137Z
+date: 2022-02-10T16:37:19.488Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:27:48.379Z
@@ -34,16 +34,6 @@ dateCreated: 2022-02-10T16:27:48.379Z
 - **Àmbit de grup**: L’àmbit d’un grup determina la visibilitat que te dins del domini, així com les característiques que poden concedir als objectes que conté.
 - **Plantilles**: Son comptes d’usuari creades amb propietats per defecte que s’aplicaran als usuaris amb eixes necessitats.
 - **Relació de confiança**: Les relacions de confiança serveixen per establir comunicació entre diferents dominis o boscos, amb la finalitat d’administrar des d’un sol punt de la xarxa tots els objectes i recursos existents.
-
-## Directori i domini
-
-- Als dominis s’emmagatzema de forma centralitzada la información administrativa i de seguretat.
-- Windows server utilitza el concepte Directori Actiu (AD, Active Directory) per emmagatzemar i implementar aquesta configuració.
-- El AD es un servei  de xarxa que desa a una base de dades tota la informació referent als recursos de xarxa i permet l'accés dels usuaris. Així es transforma en un model per organitzar, controlar i administrar de manera centralitzada l'accés als recursos de la xarxa.
-- Quan instal·lem un AD a un equip amb Windows Server, el convertirem en un servidor o Controlador de domini.
-- Els clients del domini tenen accés a la informació emmagatzemada en els controladors de domini (comptes d’usuari, grup, equip, etc.). El AD és, per tant, una eina fonamental d’administració per a tota l’estructura de l’empresa.
-- Un dels avantatges del AD és separar l’estructura lògica de l’organització (dominis) de l’estructura física (topologia de xarxa).
-
 
 # :pencil: Exercicis
   
