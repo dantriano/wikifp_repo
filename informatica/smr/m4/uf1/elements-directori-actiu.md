@@ -2,7 +2,7 @@
 title: Creació d'elements de l'Active Directory
 description: 
 published: true
-date: 2022-02-10T16:27:48.379Z
+date: 2022-02-10T16:35:14.389Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:27:48.379Z
@@ -29,16 +29,11 @@ dateCreated: 2022-02-10T16:27:48.379Z
 # :orange_book: Apunts
 
 ## Conceptes
-- **Domini**: Estructura fonamental. Permet agrupar els objectes que s’administren de forma estructural i jeràrquica.
-- **Unitat organitzativa** (UO): És la unitat jeràrquica inferior al domini. Pot estar composada per diversos objectes o altres UO.
-- **Grups**: Conjunts d’objectes del mateix tipus, que s’utilitzen per a l’assignació de drets d’accés als recursos. Normalment son usuaris.
-- **Objectes**: Formen una representació d’un recurs de xarxa, poden ser usuaris, impressores, ordinadors, unitats d’allotjament...
-- **Espai de noms**: El AD utilitza les nomenclatures del DNS per assignar els noms als dominis. Poden estar formats per 2 o + paraules separades per punts. Aquesta jerarquía és nomenada Espai de noms (max:67 Char i 127 lvl)
-- **Resolució de Noms**: Domain Name Server (DNS) converteix els noms dels host en direccions IP i al contrari.
-- **Controlador de domini**: És un Servidor Windows amb DA instal·lat. El servidor emmagatzema, manté i gestiona la base de dades d’usuaris i recursos de la xarxa.
-- **Nom de domini**: Són les denominacions assignades als ordinadors de la xarxa. Per exemple, Cicles.es seria el domini arrel.
-- **Arbre de domini**: És el conjunt de dominis formats pel nom de domini arrel i la resta de dominis contigus. CF1.edt.org o CF2.edt.org
-- **Bosc d’arbres de dominis**: És el conjunt d’arbres de domini.
+- **Grups de seguretat**:  S’utilitzen per simplificar la gestió sobre els permisos dels recursos de sistema.
+- **Grups de distribució**: S’utilitzen quan volem instal·lar software des del controlador de domini.
+- **Àmbit de grup**: L’àmbit d’un grup determina la visibilitat que te dins del domini, així com les característiques que poden concedir als objectes que conté.
+- **Plantilles**: Son comptes d’usuari creades amb propietats per defecte que s’aplicaran als usuaris amb eixes necessitats.
+- **Relació de confiança**: Les relacions de confiança serveixen per establir comunicació entre diferents dominis o boscos, amb la finalitat d’administrar des d’un sol punt de la xarxa tots els objectes i recursos existents.
 
 ## Directori i domini
 
