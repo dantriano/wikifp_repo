@@ -2,7 +2,7 @@
 title: Instal·lació i gestió de serveis de domini
 description: 
 published: true
-date: 2022-02-10T16:10:11.086Z
+date: 2022-02-10T16:11:01.542Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:01:20.653Z
@@ -22,9 +22,9 @@ dateCreated: 2022-02-10T16:01:20.653Z
 {.links-list}
 
 # :cinema: Presentacions
-<p align="center"><iframe src="https://docs.google.com/presentation/d/14CmS34WEOd22PVeYUrUT8BMrwCmCGrEM/edit?usp=sharing&ouid=109226663578013312591&rtpof=true&sd=true/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+<p align="center"><iframe src="hhttps://docs.google.com/presentation/d/1xXbMROod92PrJZ6QodK5v6nWgO5zqVF5/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 
-[Abrir](https://docs.google.com/presentation/d/14CmS34WEOd22PVeYUrUT8BMrwCmCGrEM/edit?usp=sharing&ouid=109226663578013312591&rtpof=true&sd=true/pub?start=false&loop=false&delayms=60000)
+[Abrir](https://docs.google.com/presentation/d/1xXbMROod92PrJZ6QodK5v6nWgO5zqVF5/pub?start=false&loop=false&delayms=60000)
 
 # :orange_book: Apunts
 
