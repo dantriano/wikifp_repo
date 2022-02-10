@@ -2,7 +2,7 @@
 title: Instal·lació i gestió de serveis de domini
 description: 
 published: true
-date: 2022-02-10T16:15:56.476Z
+date: 2022-02-10T16:16:37.431Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:01:20.653Z
@@ -53,7 +53,7 @@ dateCreated: 2022-02-10T16:01:20.653Z
 # :pencil: Exercicis
   **:thought_balloon:Activitats**
   
-1. [Diferències client<->servidor](activitat1)
+1. [Activa el dns](activa-dns)
 2. [Servei de xarxa](xarxa)
 3. [Desactivar Windows Update](windows-update)
 4. [Aturada Virtual Windows](/ca/informatica/smr/m4/uf1/maquines-virtuals/aturada)
