@@ -2,7 +2,7 @@
 title: Instal·lació i gestió de serveis de domini
 description: 
 published: true
-date: 2022-02-10T16:11:01.542Z
+date: 2022-02-10T16:14:01.233Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:01:20.653Z
@@ -28,14 +28,21 @@ dateCreated: 2022-02-10T16:01:20.653Z
 
 # :orange_book: Apunts
 
-## Xarxa informàtica
+## Conceptes
+- **Domini**: Estructura fonamental. Permet agrupar els objectes que s’administren de forma estructural i jeràrquica.
+- **Unitat organitzativa** (UO): És la unitat jeràrquica inferior al domini. Pot estar composada per diversos objectes o altres UO.
+- **Grups**: Conjunts d’objectes del mateix tipus, que s’utilitzen per a l’assignació de drets d’accés als recursos. Normalment son usuaris.
+- **Objectes**: Formen una representació d’un recurs de xarxa, poden ser usuaris, impressores, ordinadors, unitats d’allotjament...
 
-Una xarxa de computadors, també anomenada xarxa d'ordinadors o xarxa informàtica, és un **conjunt d'equips connectats** per mitjà de cables, senyals, ones o qualsevol altre mètode de transport de dades, que **comparteixen informació** (arxius), **recursos** (CD‐ROM, impressores, etc.) **i serveis** (accés a internet, e‐mail, xat, jocs, etc.).
 
-Dintre d'aquestes xarxes d'ordinadors trobem l'estructura de servidor i client.
-- **Servidors**: Centralitzen la gestió de la infraestructura així com els serveis.
-- **Clients**: Es connecten al servidor per utilizar els recursos o accedir als serveis que ofereix.
+## Directori i domini
 
+- Als dominis s’emmagatzema de forma centralitzada la información administrativa i de seguretat.
+- Windows server utilitza el concepte Directori Actiu (AD, Active Directory) per emmagatzemar i implementar aquesta configuració.
+- El AD es un servei  de xarxa que desa a una base de dades tota la informació referent als recursos de xarxa i permet l'accés dels usuaris. Així es transforma en un model per organitzar, controlar i administrar de manera centralitzada l'accés als recursos de la xarxa.
+- Quan instal·lem un AD a un equip amb Windows Server, el convertirem en un servidor o Controlador de domini.
+- Els clients del domini tenen accés a la informació emmagatzemada en els controladors de domini (comptes d’usuari, grup, equip, etc.). El AD és, per tant, una eina fonamental d’administració per a tota l’estructura de l’empresa.
+- Un dels avantatges del AD és separar l’estructura lògica de l’organització (dominis) de l’estructura física (topologia de xarxa).
 
 
 # :pencil: Exercicis
