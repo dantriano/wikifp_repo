@@ -2,7 +2,7 @@
 title: UF1 - Sistemes operatius propietaris en xarxa
 description: 
 published: true
-date: 2022-02-10T15:57:12.702Z
+date: 2022-02-10T16:09:00.883Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-08T20:41:14.061Z
@@ -51,6 +51,6 @@ dateCreated: 2022-02-08T20:41:14.061Z
 ### Sistemes de seguretat pasius
 - [:pill: Màquines virtuals](maquines-virtuals)
 - [:pill: Instal·lació Servidor Windows](instalacio-servidor-windows)
-- [:pill: Instal·lació i gestió de serveis al servidor Windows](serveis-de-servidor)
+- [:pill: Instal·lació i gestió de serveis de domini](serveis-de-servidor)
 - [:pill: Creació d'elements del Directori Actiu](elements-directori-actiu)
 {.links-list}
