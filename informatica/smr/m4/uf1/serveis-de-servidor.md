@@ -1,8 +1,8 @@
 ---
-title: Instal·lació i gestió de serveis al servidor Windows
+title: Instal·lació i gestió de serveis de domini
 description: 
 published: true
-date: 2022-02-10T16:01:20.653Z
+date: 2022-02-10T16:10:11.086Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:01:20.653Z
