@@ -2,7 +2,7 @@
 title: Creació d'elements de l'Active Directory
 description: 
 published: true
-date: 2022-02-10T16:35:14.389Z
+date: 2022-02-10T16:36:41.137Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:27:48.379Z
@@ -46,10 +46,7 @@ dateCreated: 2022-02-10T16:27:48.379Z
 
 
 # :pencil: Exercicis
-  **:thought_balloon:Activitats**
-  
-1. [Activa el dns](activa-dns)
   
   **:busts_in_silhouette:Pràctiques**
   
-1.   [Instal·lació del Direcoti Actiu a Windows Server](active-directory)
+1.   [Creació d'usuaris i grups](usuaris-i-grups)
