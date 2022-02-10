@@ -2,7 +2,7 @@
 title: Instal·lació servidor Windows
 description: 
 published: true
-date: 2022-02-09T14:38:43.689Z
+date: 2022-02-10T15:55:45.694Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T11:46:36.005Z
@@ -63,6 +63,7 @@ Abans d’aplicar una actualització cal assegurar-se que tot funciona correctam
 1. [Diferències client<->servidor](activitat1)
 2. [Servei de xarxa](xarxa)
 3. [Desactivar Windows Update](windows-update)
+4. [Aturada Virtual Windows](/ca/informatica/smr/m4/uf1/maquines-virtuals/aturada)
   
   **:busts_in_silhouette:Pràctiques**
   
