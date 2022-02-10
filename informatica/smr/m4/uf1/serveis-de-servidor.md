@@ -2,7 +2,7 @@
 title: Instal·lació i gestió de serveis de domini
 description: 
 published: true
-date: 2022-02-10T16:14:01.233Z
+date: 2022-02-10T16:15:56.476Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:01:20.653Z
@@ -33,7 +33,12 @@ dateCreated: 2022-02-10T16:01:20.653Z
 - **Unitat organitzativa** (UO): És la unitat jeràrquica inferior al domini. Pot estar composada per diversos objectes o altres UO.
 - **Grups**: Conjunts d’objectes del mateix tipus, que s’utilitzen per a l’assignació de drets d’accés als recursos. Normalment son usuaris.
 - **Objectes**: Formen una representació d’un recurs de xarxa, poden ser usuaris, impressores, ordinadors, unitats d’allotjament...
-
+- **Espai de noms**: El AD utilitza les nomenclatures del DNS per assignar els noms als dominis. Poden estar formats per 2 o + paraules separades per punts. Aquesta jerarquía és nomenada Espai de noms (max:67 Char i 127 lvl)
+- **Resolució de Noms**: Domain Name Server (DNS) converteix els noms dels host en direccions IP i al contrari.
+- **Controlador de domini**: És un Servidor Windows amb DA instal·lat. El servidor emmagatzema, manté i gestiona la base de dades d’usuaris i recursos de la xarxa.
+- **Nom de domini**: Són les denominacions assignades als ordinadors de la xarxa. Per exemple, Cicles.es seria el domini arrel.
+- **Arbre de domini**: És el conjunt de dominis formats pel nom de domini arrel i la resta de dominis contigus. CF1.edt.org o CF2.edt.org
+- **Bosc d’arbres de dominis**: És el conjunt d’arbres de domini.
 
 ## Directori i domini
 
