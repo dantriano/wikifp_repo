@@ -2,7 +2,7 @@
 title: Instal·lació i gestió de serveis de domini
 description: 
 published: true
-date: 2022-02-10T16:16:37.431Z
+date: 2022-02-10T16:19:06.030Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-10T16:01:20.653Z
@@ -60,4 +60,4 @@ dateCreated: 2022-02-10T16:01:20.653Z
   
   **:busts_in_silhouette:Pràctiques**
   
-1.   [Instal·lació Windows Server](install-win-server)
+1.   [Instal·lació del Direcoti Actiu a Windows Server](active-directory)
