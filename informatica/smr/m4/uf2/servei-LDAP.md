@@ -2,7 +2,7 @@
 title: Instal·lació del servei LDAP
 description: 
 published: true
-date: 2022-02-14T16:26:33.426Z
+date: 2022-02-14T16:28:33.618Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-14T16:19:08.308Z
@@ -57,11 +57,10 @@ Podem entendre el sistema LDAP com una base de dades, tot i que la seva estructu
 A l’LDAP la informació està **estructurada en forma d’arbre**. Aquest arbre s’anomena arbre d’informació del directori o DIT (Directory Information Tree).
 
 ![Esquema d'arbre LDAP](/informatica/m04/esquemaarbreldap.png)
-
 | | |
 | :-- | :--: |
-| Tradicionalment, aquesta estructura ha reflectit límits geogràfics i organitzatius. A la part superior de l’arbre s’han representat els països, i a sota, els estats, les organitzacions , les unitats organitzatives, les persones, els ordinadors, les impressores, els documents o altres conceptes. | ![Esquema d'arbre LDAP](/informatica/m04/EsquemaTradicionalLDAP.png) |
-| L’arbre del directori també es pot estructurar en funció dels noms de domini d’Internet (DNS). Aquesta pràctica està cada vegada més estesa, ja que permet trobar un servidor LDAP realitzant una consulta DNS. Aquest tipus de representació és el més habitual a dia d’avui a l’hora d’implementar serveis de directori per administrar dominis informàtics. | ![Esquema d'arbre LDAP](/informatica/m04/EsquemaActualLDAP.png) |
+| Tradicionalment, aquesta estructura ha reflectit límits geogràfics i organitzatius. A la part superior de l’arbre s’han representat els països, i a sota, els estats, les organitzacions , les unitats organitzatives, les persones, els ordinadors, les impressores, els documents o altres conceptes. | ![esquematradicionalldap.png](/informatica/m04/esquematradicionalldap.png) |
+| L’arbre del directori també es pot estructurar en funció dels noms de domini d’Internet (DNS). Aquesta pràctica està cada vegada més estesa, ja que permet trobar un servidor LDAP realitzant una consulta DNS. Aquest tipus de representació és el més habitual a dia d’avui a l’hora d’implementar serveis de directori per administrar dominis informàtics. | ![esquemaactualldap.png](/informatica/m04/esquemaactualldap.png) |
 
 ## Elements de l'LDAP
 - **Arrel**: és l’equivalent al que coneixiem com a **domini**. El seu nomenament serà del tipus example.com. No obstant, estarà separat de la següent manera als formats de LDAP: dc=example,dc=com
