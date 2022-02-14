@@ -2,7 +2,7 @@
 title: Instal·lació del servei LDAP
 description: 
 published: true
-date: 2022-02-14T16:31:28.140Z
+date: 2022-02-14T16:32:21.032Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-14T16:19:08.308Z
@@ -22,7 +22,7 @@ dateCreated: 2022-02-14T16:19:08.308Z
 {.links-list}
 
 # :cinema: Presentacions
-<p align="center"><iframe src="https://docs.google.com/presentation/d/1OF6uOObEZp473v0hrHUMolfHzCF0S6KLL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+<p align="center"><iframe src="https://docs.google.com/presentation/d/1OF6uOObEZp473v0hrHUMolfHzCF0S6KL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 
 [Abrir](https://docs.google.com/presentation/d/1OF6uOObEZp473v0hrHUMolfHzCF0S6KL/pub?start=false&loop=false&delayms=60000)
 
