@@ -2,7 +2,7 @@
 title: Màquines Virtuals
 description: 
 published: true
-date: 2022-02-10T15:53:11.119Z
+date: 2022-02-14T15:59:26.845Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T17:24:11.736Z
@@ -23,19 +23,18 @@ dateCreated: 2022-02-09T17:24:11.736Z
 
 # :cinema: Presentacions
 <p align="center"><iframe src="https://www.youtube.com/watch?v=wX75Z-4MEoM&t=9s/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+[Abrir](https://www.youtube.com/watch?v=wX75Z-4MEoM&t=9s/pub?start=false&loop=false&delayms=60000)
 
-[Abrir](https://docs.google.com/presentation/d/1qa_I7NfkmivkkdyP7MuP6aWkyItOsqNZ/pub?start=false&loop=false&delayms=60000)
-
+<p align="center"><iframe src="https://www.youtube.com/watch?v=Kq849CpGd88/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+[Abrir](https://www.youtube.com/watch?v=Kq849CpGd88/pub?start=false&loop=false&delayms=60000)
 # :orange_book: Apunts
 
-## Xarxa informàtica
+## Màquines Virtuals
 
-Una xarxa de computadors, també anomenada xarxa d'ordinadors o xarxa informàtica, és un **conjunt d'equips connectats** per mitjà de cables, senyals, ones o qualsevol altre mètode de transport de dades, que **comparteixen informació** (arxius), **recursos** (CD‐ROM, impressores, etc.) **i serveis** (accés a internet, e‐mail, xat, jocs, etc.).
+Una màquina virtual no és més que un software capaç de carregar al seu interior un altre sistema operatiu, fent-li creure que és un PC real.
+El fet que els seus components siguin virtuals no vol dir que no existexin. Per exemple, una màquina virtual pot tenir uns recursos reservats de 2 GB de RAM i 20 GB de HDD, que han de sortir d'algún lloc: el PC on està instal·lada la màquina virtual, també anomenat hyper-visor, host o amfitrió. Altres dispositius poden ser realment inexistents de forma física, com per exemple un lector de CD-ROM o el propi CD-ROM, que en realitat, sols és una imatge ISO.
 
-Dintre d'aquestes xarxes d'ordinadors trobem l'estructura de servidor i client.
-- **Servidors**: Centralitzen la gestió de la infraestructura així com els serveis.
-- **Clients**: Es connecten al servidor per utilizar els recursos o accedir als serveis que ofereix.
-
+La màquina virtual no pot accedir a la resta de dades de la màquina amfitriona a pesar d'estar físicament funcionant a dintre, està aïllada, com a una bombolla. No obstant, les principals aplicacions de màquines virtuals com VirtualBox, VMWare, QEMU o hyper-v disposen de dreceres i eines per facilitar la tasca de passar arxius d'una màquina a altra.
 
 
 
