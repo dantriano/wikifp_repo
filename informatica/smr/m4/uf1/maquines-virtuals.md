@@ -2,7 +2,7 @@
 title: Màquines Virtuals
 description: 
 published: true
-date: 2022-02-14T16:05:09.064Z
+date: 2022-02-14T16:05:29.766Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T17:24:11.736Z
@@ -23,9 +23,11 @@ dateCreated: 2022-02-09T17:24:11.736Z
 
 # :cinema: Presentacions
 <p align="center"><iframe src="https://www.youtube.com/watch?v=wX75Z-4MEoM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+
 [Abrir](https://www.youtube.com/watch?v=wX75Z-4MEoM)
 
 <p align="center"><iframe src="https://www.youtube.com/watch?v=Kq849CpGd88/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+
 [Abrir](https://www.youtube.com/watch?v=Kq849CpGd88)
 
 # :orange_book: Apunts
