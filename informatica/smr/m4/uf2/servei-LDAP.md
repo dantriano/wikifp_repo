@@ -2,7 +2,7 @@
 title: Instal·lació del servei LDAP
 description: 
 published: true
-date: 2022-02-14T16:28:33.618Z
+date: 2022-02-14T16:31:28.140Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-14T16:19:08.308Z
@@ -10,7 +10,7 @@ dateCreated: 2022-02-14T16:19:08.308Z
 
 - :books: **Cicle Formatiu**: Sistemes Microinformatics i Xarxes
 - :notebook_with_decorative_cover: **Modul**: M4 - Sistemes Operatius en Xarxa
-- :calendar: **Durada**: 8h
+- :calendar: **Durada**: 10h
 - :computer: **Material necessari**:PC
 - :busts_in_silhouette: **Agrupació**: Per treballar en grup o individualment
 
@@ -22,7 +22,7 @@ dateCreated: 2022-02-14T16:19:08.308Z
 {.links-list}
 
 # :cinema: Presentacions
-<p align="center"><iframe src="https://docs.google.com/presentation/d/1OF6uOObEZp473v0hrHUMolfHzCF0S6KL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+<p align="center"><iframe src="https://docs.google.com/presentation/d/1OF6uOObEZp473v0hrHUMolfHzCF0S6KLL/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 
 [Abrir](https://docs.google.com/presentation/d/1OF6uOObEZp473v0hrHUMolfHzCF0S6KL/pub?start=false&loop=false&delayms=60000)
 
@@ -78,11 +78,7 @@ La sintaxis dels valors dependrà del tipus de l’atribut, per exemple, l’atr
 # :pencil: Exercicis
   **:thought_balloon:Activitats**
   
-1. [Diferències client<->servidor](activitat1)
-2. [Servei de xarxa](xarxa)
-3. [Desactivar Windows Update](windows-update)
-4. [Aturada Virtual Windows](/ca/informatica/smr/m4/uf1/maquines-virtuals/aturada)
+1. [Arbre de domini LDAP](arbre-LDAP)
+2. [PHPLDAPADMIN](php-ldap)
+3. [Instal·lació del servei LDAP](install-LDAP)
   
-  **:busts_in_silhouette:Pràctiques**
-  
-1.   [Instal·lació Windows Server](install-win-server)
