@@ -2,7 +2,7 @@
 title: Màquines Virtuals
 description: 
 published: true
-date: 2022-02-14T15:59:26.845Z
+date: 2022-02-14T16:00:32.648Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T17:24:11.736Z
@@ -34,7 +34,7 @@ dateCreated: 2022-02-09T17:24:11.736Z
 Una màquina virtual no és més que un software capaç de carregar al seu interior un altre sistema operatiu, fent-li creure que és un PC real.
 El fet que els seus components siguin virtuals no vol dir que no existexin. Per exemple, una màquina virtual pot tenir uns recursos reservats de 2 GB de RAM i 20 GB de HDD, que han de sortir d'algún lloc: el PC on està instal·lada la màquina virtual, també anomenat hyper-visor, host o amfitrió. Altres dispositius poden ser realment inexistents de forma física, com per exemple un lector de CD-ROM o el propi CD-ROM, que en realitat, sols és una imatge ISO.
 
-La màquina virtual no pot accedir a la resta de dades de la màquina amfitriona a pesar d'estar físicament funcionant a dintre, està aïllada, com a una bombolla. No obstant, les principals aplicacions de màquines virtuals com VirtualBox, VMWare, QEMU o hyper-v disposen de dreceres i eines per facilitar la tasca de passar arxius d'una màquina a altra.
+La màquina virtual no pot accedir a la resta de dades de la màquina amfitriona a pesar d'estar físicament funcionant a dintre, està aïllada, com a una bombolla. No obstant, les principals aplicacions de màquines virtuals com VirtualBox, VMWare, QEMU, Parallels o hyper-v disposen de dreceres i eines per facilitar la tasca de passar arxius d'una màquina a altra.
 
 
 
