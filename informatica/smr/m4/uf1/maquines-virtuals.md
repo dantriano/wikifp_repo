@@ -2,7 +2,7 @@
 title: Màquines Virtuals
 description: 
 published: true
-date: 2022-02-14T16:02:30.676Z
+date: 2022-02-14T16:03:44.177Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-09T17:24:11.736Z
@@ -22,13 +22,7 @@ dateCreated: 2022-02-09T17:24:11.736Z
 {.links-list}
 
 # :cinema: Presentacions
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=wX75Z-4MEoM" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-<p align="center"><iframe src="https://www.youtube.com/watch?v=wX75Z-4MEoM&t=9s/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
+<p align="center"><iframe src="https://www.youtube.com/watch?v=wX75Z-4MEoM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 [Abrir](https://www.youtube.com/watch?v=wX75Z-4MEoM&t=9s/pub?start=false&loop=false&delayms=60000)
 
 <p align="center"><iframe src="https://www.youtube.com/watch?v=Kq849CpGd88/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
