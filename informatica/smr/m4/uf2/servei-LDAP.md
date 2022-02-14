@@ -2,7 +2,7 @@
 title: Instal·lació del servei LDAP
 description: 
 published: true
-date: 2022-02-14T16:32:21.032Z
+date: 2022-02-14T16:35:14.694Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-14T16:19:08.308Z
@@ -55,8 +55,11 @@ LDAP correspon a les sigles de Lightweight Directory Access Protocol o Protocol 
 Podem entendre el sistema LDAP com una base de dades, tot i que la seva estructura i funcionament és molt distinta d’una convencional. L’estructura de LDAP està **optimitzada per a realitzar lectura**, però les funcions d’escriptura son lentes.
 
 A l’LDAP la informació està **estructurada en forma d’arbre**. Aquest arbre s’anomena arbre d’informació del directori o DIT (Directory Information Tree).
+| |
+| :--:|
+| ![Esquema d'arbre LDAP](/informatica/m04/esquemaarbreldap.png) |
 
-![Esquema d'arbre LDAP](/informatica/m04/esquemaarbreldap.png)
+
 | | |
 | :-- | :--: |
 | Tradicionalment, aquesta estructura ha reflectit límits geogràfics i organitzatius. A la part superior de l’arbre s’han representat els països, i a sota, els estats, les organitzacions , les unitats organitzatives, les persones, els ordinadors, les impressores, els documents o altres conceptes. | ![esquematradicionalldap.png](/informatica/m04/esquematradicionalldap.png) |
