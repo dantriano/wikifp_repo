@@ -2,7 +2,7 @@
 title: Criptografia
 description: 
 published: true
-date: 2022-02-21T14:23:45.526Z
+date: 2022-02-21T14:25:02.902Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-21T14:23:45.526Z
@@ -49,7 +49,7 @@ En este caso, cada usuario del sistema criptográfico ha de poseer una pareja de
 
 Esta pareja de claves es complementaria: lo que cifra una SÓLO lo puede descifrar la otra y viceversa.
 
-## Obtención de las claves
+### Obtención de las claves
 Estas claves se obtienen mediante métodos matemáticos complicados de forma que por razones de tiempo de cómputo, es imposible conocer una clave a partir de la otra.
 
 Una clave privada o private key, es una clave secreta generada por el proceso de criptografía asimétrica. Un tipo de criptografía es el tipo ECDSA, usando la curva elíptica secp256k1. Este es un tipo especial de criptografía asimétrica, que nos brinda un alto nivel de seguridad.
@@ -60,7 +60,7 @@ Gracias al uso de este sistema criptográfico, se pueden generar un número casi
 {.is-info}
 
 
-===Mensajes cifrados con clave asimetrica===
+## Mensajes cifrados con clave asimetrica===
 Pongamos un ejemplo ilustrativo a lo largo de este documento para comprender mejor estos conceptos. Ana y Bob tienen sus pares de claves respectivas: una clave privada que sólo ha de conocer el propietario de la misma y una clave pública que está disponible para todos los usuarios del sistema.
 
 ![clave_simetrica.jpeg](/informatica/smr/m6/clave_simetrica.jpeg){.align-center}
@@ -100,7 +100,7 @@ Con este sistema conseguimos:
 Pero todavía quedan sin resolver los problemas de autenticación y de no repudio. Para ello, veremos el concepto de Firma Digital.
 
 
-===Firma Digital===
+### Firma Digital
 Una de las principales ventajas de la criptografía de clave pública es que ofrece un método para el desarrollo de firmas digitales. La firma digital permite al receptor de un mensaje verificar la autenticidad del origen de la información así como verificar que dicha información no ha sido modificada desde su generación. De este modo, la firma digital ofrece el soporte para la autenticación e integridad de los datos así como para el no repudio en origen, ya que el originador de un mensaje firmado digitalmente no puede argumentar que no lo es.
 
 Una firma digital está destinada al mismo propósito que una manuscrita. Sin embargo, una firma manuscrita es sencilla de falsificar mientras que la digital es imposible mientras no se descubra la clave privada del firmante.
@@ -144,14 +144,12 @@ El mismo sistema se utiliza también en las comunicaciones SSL/TLS de los sitios
 
 ## Referencias
 
-[[https://academy.bit2me.com/que-es-clave-privada/]]
+https://academy.bit2me.com/que-es-clave-privada/
 
-[[https://securit.blog/criptografia/criptografia-asimetrica-clave-privada-y-clave-publica/]]
+https://securit.blog/criptografia/criptografia-asimetrica-clave-privada-y-clave-publica/
 
-[[https://www.genbeta.com/desarrollo/tipos-de-criptografia-simetrica-asimetrica-e-hibrida]]
-===== Píldora 3: Antivirus =====
-{{url>https://docs.google.com/presentation/d/e/2PACX-1vRJvjg4kmxmzT2XySR0LrmehnWXf3dtT41Xk3g4uWewyUMuUf7sHsOAzOYvmFyzT70BauFxAhg-4AAh/embed?start=false&loop=false}}
-[[https://docs.google.com/presentation/d/e/2PACX-1vRJvjg4kmxmzT2XySR0LrmehnWXf3dtT41Xk3g4uWewyUMuUf7sHsOAzOYvmFyzT70BauFxAhg-4AAh/pub?start=false&loop=false|Antivirus]]
+https://www.genbeta.com/desarrollo/tipos-de-criptografia-simetrica-asimetrica-e-hibrida
+
 
   # :pencil: Exercicis
   **:thought_balloon:Teorics**
