@@ -2,7 +2,7 @@
 title: Salud Mental
 description: Acció tutorial per tractar la salud mental
 published: true
-date: 2022-01-14T00:18:44.999Z
+date: 2022-03-01T10:12:53.631Z
 tags: 
 editor: markdown
 dateCreated: 2022-01-13T23:43:15.539Z
@@ -33,7 +33,8 @@ Llençar als alumnes questions per debatre com:
 
 **Activitat**
 - Fer per parelles l'activitat descrita a la fitcha [:paperclip: Conductes Saludables.pdf]()
-
+#
+<p align="center"><iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQcyU6r1KxpekXlswftYzcRkkIM9CEp1ILF_zh5JgUR-jHC7OAyaYpZkyk8XqxYvTzQ325XR7huB68c/embed?start=false&loop=false&delayms=3000" frameborder="0" width="700" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></p>
 # :pencil: Fitxes de classe
 
 - [:paperclip: Trastorn Mental.pdf](/trastorn_mental.pdf)
