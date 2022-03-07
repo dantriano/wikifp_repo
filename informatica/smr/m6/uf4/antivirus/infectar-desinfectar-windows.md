@@ -2,7 +2,7 @@
 title: Infección desinfección de un Windows
 description: 
 published: true
-date: 2022-03-07T16:14:26.910Z
+date: 2022-03-07T16:18:37.437Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-07T16:14:26.910Z
@@ -40,5 +40,18 @@ Deberás de desinfectar los 5 virus con los que tu compañero habrá infectado l
 - Monitorizar los procesos ejecutados con herramientas como Process monitor o Autoruns
 - Demostrar que el windows vuelve a estar limpio
 
+## Referencias
+
+https://www.pcrisk.es/guias-de-desinfeccion/9184-svchost-exe-virus#a3
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns
+
+https://dasmalwerk.eu/
+
+https://protegermipc.net/2017/06/22/donde-descargar-virus-malware/
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/procmon
+
+https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
 
 :pencil2: Creat per Dan Triano {.text-right}
