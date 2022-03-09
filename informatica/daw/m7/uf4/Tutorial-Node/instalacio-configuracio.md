@@ -2,7 +2,7 @@
 title: Node - Instalacio i configuracio
 description: 
 published: true
-date: 2022-03-09T15:34:36.760Z
+date: 2022-03-09T15:41:35.795Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:29:55.143Z
@@ -28,6 +28,24 @@ npm install express --save
 {.is-info}
 
 ![node-estuctura.png](/informatica/daw/m7/uf4/node-estuctura.png){.align-center}
+# Hello World
+
+Nuestro proyecto arrancara desde el archivo **app.js**. En él deberemos de importar la librería de Express y definiremos el comportamiento de la ruta /
+
+```
+var express = require('express');
+
+var app = express();
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+});
+```
+> El metodo **listen** determina por que puerto va a escuchar la aplicación de express (app) las peticiones del usuario.
+{.is-info}
 
 # Configuració per testeig
 
