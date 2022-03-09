@@ -1,8 +1,8 @@
 ---
-title: Node - Instalacio i configuracio
+title: Node - Hello World
 description: 
 published: true
-date: 2022-03-09T15:42:13.346Z
+date: 2022-03-09T15:50:40.644Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:29:55.143Z
