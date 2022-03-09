@@ -2,7 +2,7 @@
 title: Tutorial Node
 description: 
 published: true
-date: 2022-03-09T15:16:38.099Z
+date: 2022-03-09T15:51:06.046Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:15:45.937Z
@@ -13,7 +13,7 @@ dateCreated: 2022-03-09T15:15:45.937Z
 
 
 > ### Ejemplo Github
-> [https://github.com/dantriano/m7-laravel8-tutorial](https://github.com/dantriano/m7-laravel8-tutorial)
+> [https://github.com/dantriano/m7-node-tutorial](https://github.com/dantriano/m7-node-tutorial)
 {.is-success}
 
 
