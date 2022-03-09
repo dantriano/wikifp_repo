@@ -2,7 +2,7 @@
 title: Tutorial Node
 description: 
 published: true
-date: 2022-03-09T15:16:04.526Z
+date: 2022-03-09T15:16:38.099Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:15:45.937Z
@@ -17,7 +17,7 @@ dateCreated: 2022-03-09T15:15:45.937Z
 {.is-success}
 
 
-# Tutorial pas a pas de Laravel 8
+# Tutorial pas a pas de Node
 
 - [:pill: Instalació i configuració](instalacio-configuracio)
 - [:pill: Routes](routes)
