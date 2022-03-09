@@ -1,8 +1,8 @@
 ---
-title: Node- Routes
+title: Node - Routes & Views
 description: 
 published: true
-date: 2022-03-09T16:00:44.634Z
+date: 2022-03-09T16:01:04.125Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:38:49.818Z
