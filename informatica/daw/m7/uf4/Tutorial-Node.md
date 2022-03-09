@@ -2,7 +2,7 @@
 title: Tutorial Node
 description: 
 published: true
-date: 2022-03-09T15:51:06.046Z
+date: 2022-03-09T16:03:13.435Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:15:45.937Z
@@ -16,6 +16,7 @@ dateCreated: 2022-03-09T15:15:45.937Z
 > [https://github.com/dantriano/m7-node-tutorial](https://github.com/dantriano/m7-node-tutorial)
 {.is-success}
 
+[https://docs.google.com/presentation/d/e/2PACX-1vTrlIVqCMTzYEIRMHK2WyqxgR3i7-eHB5XSPw_CWK6GTPDy_kQOjVdnJU3uuVLrPUD2kMAt7jDvEdVn/pub?start=false&loop=false#slide=id.p1](Presentacion Node)
 
 # Tutorial pas a pas de Node
 
