@@ -2,7 +2,7 @@
 title: Node - Instalacio i configuracio
 description: 
 published: true
-date: 2022-03-09T15:41:35.795Z
+date: 2022-03-09T15:42:13.346Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:29:55.143Z
@@ -44,6 +44,11 @@ app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
 ```
+
+Ahora ejecutamos:
+
+`node app.js`
+
 > El metodo **listen** determina por que puerto va a escuchar la aplicación de express (app) las peticiones del usuario.
 {.is-info}
 
@@ -60,6 +65,7 @@ Añadimos nodemon a nuestro **package.json** para manetener activa nuestra aplic
 ```
 
 Instalamos el nuevo paquete:
+
 `npm install`
 
 Y a continuación modificamos nuestro script "test" para que ejecute **nodemon** sobre el archivo de nuestra aplicación **app.js**
