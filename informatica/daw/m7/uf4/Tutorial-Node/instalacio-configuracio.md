@@ -2,7 +2,7 @@
 title: Node - Instalacio i configuracio
 description: 
 published: true
-date: 2022-03-09T15:29:55.143Z
+date: 2022-03-09T15:34:36.760Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:29:55.143Z
@@ -41,5 +41,19 @@ Añadimos nodemon a nuestro **package.json** para manetener activa nuestra aplic
 } 
 ```
 
+Instalamos el nuevo paquete:
 `npm install`
+
+Y a continuación modificamos nuestro script "test" para que ejecute **nodemon** sobre el archivo de nuestra aplicación **app.js**
+```
+"scripts": {
+    "test": "nodemon app.js", 
+    "start": "node app.js"
+},
+```
+
+`npm run test`
+> Podemos crear tantos scripts como queramos: test, start, migrate, etc... que se ejecutarán con el comando
+> npm run [nombre script]
+{.is-info}
 
