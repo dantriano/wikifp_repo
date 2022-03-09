@@ -2,7 +2,7 @@
 title: UF4 - Serveis web. Pàgines dinàmiques interactives. Webs híbrids
 description: 
 published: true
-date: 2022-03-09T15:14:06.942Z
+date: 2022-03-09T15:14:53.142Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:14:06.942Z
@@ -21,7 +21,7 @@ dateCreated: 2022-03-09T15:14:06.942Z
 
 #
 
-- [:pill: Node](Node)
+- [:pill: Tutorial Node](Tutorial-Node)
 {.links-list}
 #### Proyectos
 - [:wrench: Node Chat](node-chat)
