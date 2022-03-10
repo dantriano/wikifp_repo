@@ -2,7 +2,7 @@
 title: Infección desinfección de un Windows
 description: 
 published: true
-date: 2022-03-10T14:34:18.856Z
+date: 2022-03-10T16:16:24.582Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-07T16:14:26.910Z
@@ -27,6 +27,7 @@ Esta práctica se hará por parejas. Cada uno infectará un sistema Windows con 
 
 - Descargar la imagen de Windows (7) [Descargar OVA](https://drive.google.com/file/d/1svSMv5v-Ako86Rq-h4n19dwtY19jQF8b/view?usp=sharing) e instalarla en virtual box. 
 - Visitar los diferentes repositorios de malware que existen e infectar el equipo con al menos 5 malwares
+- Obtener de una base de datos de virus (VirusTotal) la información de los virus escogidos i adjuntarla en el documento
 
 > Para evitar la progragación de los virus en nuestra red primero los descargais (están en formato ZIP), quitais la configuración de red y luego descomprimis y ejecutais los virus.
 {.is-danger}
@@ -53,5 +54,7 @@ https://protegermipc.net/2017/06/22/donde-descargar-virus-malware/
 https://docs.microsoft.com/en-us/sysinternals/downloads/procmon
 
 https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer
+
+https://www.virustotal.com/
 
 :pencil2: Creat per Dan Triano {.text-right}
