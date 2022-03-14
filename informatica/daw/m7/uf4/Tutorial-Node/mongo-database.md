@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-14T17:27:51.541Z
+date: 2022-03-14T17:35:55.867Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -70,7 +70,7 @@ var express = require('express'),
   mongoose = require('mongoose'),  
   http = require('http');  
 var app = express();  
-mongoose.connect('mongodb://localhost:8081/test_database');
+mongoose.connect('mongodb://root:admin1234@localhost:8081/test_database');
 ```
 
 Ahora que estaremos preparados para utilizar mongo en nuestra aplicación.
