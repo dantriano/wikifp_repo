@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-14T17:35:55.867Z
+date: 2022-03-14T18:27:05.802Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -70,7 +70,14 @@ var express = require('express'),
   mongoose = require('mongoose'),  
   http = require('http');  
 var app = express();  
-mongoose.connect('mongodb://root:admin1234@localhost:8081/test_database');
+mongoose.connect(
+  `mongodb://root:admin1234@localhost:27017/tutorial?authSource=admin`,
+  { useCreateIndex: true, useUnifiedTopology: true, useNewUrlParser: true },
+  (err, res) => {
+    if (err) console.log(`ERROR: connecting to Database.  ${err}`);
+    else console.log(`Database Online: ${process.env.MONGO_DB}`);
+  }
+);
 ```
 
 Ahora que estaremos preparados para utilizar mongo en nuestra aplicación.
