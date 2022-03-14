@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-14T17:15:12.087Z
+date: 2022-03-14T17:27:51.541Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -22,7 +22,7 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=pass12345
     volumes:
-      - mongodb-data:/data/db
+      - ./mongodb-data:/data/db
     networks:
       - mongodb_network
     ports:
@@ -38,8 +38,6 @@ services:
       - ME_CONFIG_MONGODB_ADMINPASSWORD=pass12345
       - ME_CONFIG_BASICAUTH_USERNAME=admin
       - ME_CONFIG_BASICAUTH_PASSWORD=admin123
-    volumes:
-      - mongodb-data
     depends_on:
       - mongodb
     networks:
