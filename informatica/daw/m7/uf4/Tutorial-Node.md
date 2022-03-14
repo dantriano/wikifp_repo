@@ -2,7 +2,7 @@
 title: Tutorial Node
 description: 
 published: true
-date: 2022-03-14T13:56:25.645Z
+date: 2022-03-14T15:54:08.168Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:15:45.937Z
@@ -23,6 +23,7 @@ dateCreated: 2022-03-09T15:15:45.937Z
 - [:pill: Instalació i configuració](instalacio-configuracio)
 - [:pill: Routes i vistes](routes-views)
 - [:pill: Requests](requests)
+- [:pill: Base de dades Mongo](mongo-database)
 - [:pill: Controladors](controladors)
 - [:pill: Models](models)
 - [:pill: Autenticació](autenticacio)
