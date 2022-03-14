@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-14T17:01:05.315Z
+date: 2022-03-14T17:15:12.087Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -72,7 +72,7 @@ var express = require('express'),
   mongoose = require('mongoose'),  
   http = require('http');  
 var app = express();  
-mongoose.connect('mongodb://localhost/test_database');
+mongoose.connect('mongodb://localhost:8081/test_database');
 ```
 
 Ahora que estaremos preparados para utilizar mongo en nuestra aplicación.
@@ -91,7 +91,7 @@ var userSchema = new Schema({
 });  
   
 //Export the schema  
-module.exports = mongoose.model('Person', personSchema); 
+module.exports = mongoose.model('User', userSchema); 
 ```
 # Uso del modelo en los Controllers
 En los controladores importaremos los modelos que vayamos a utilizar y de manera sencilla podremos usar acciones como insertar o buscar en nuestra base de datos
