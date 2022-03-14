@@ -2,7 +2,7 @@
 title: Tutorial Node
 description: 
 published: true
-date: 2022-03-09T16:46:05.479Z
+date: 2022-03-14T13:56:25.645Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:15:45.937Z
@@ -21,7 +21,7 @@ dateCreated: 2022-03-09T15:15:45.937Z
 # Tutorial pas a pas de Node
 
 - [:pill: Instalació i configuració](instalacio-configuracio)
-- [:pill: Routes i vistes](routes)
+- [:pill: Routes i vistes](routes-views)
 - [:pill: Requests](requests)
 - [:pill: Controladors](controladors)
 - [:pill: Models](models)
