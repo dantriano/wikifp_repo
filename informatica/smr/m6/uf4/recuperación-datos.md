@@ -2,7 +2,7 @@
 title: Recuperacion de datos
 description: 
 published: true
-date: 2022-03-14T15:25:08.469Z
+date: 2022-03-14T15:31:09.221Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T15:25:08.469Z
@@ -27,7 +27,7 @@ dateCreated: 2022-03-14T15:25:08.469Z
 [Abrir](https://docs.google.com/presentation/d/e/2PACX-1vTE5mhWp6QvWh8qW_AVL9ZtbcFccJHE2vwjIXa4HbUMsMDtIMwonrR9iFU4M-ZR5gHDXPvBoTJIQD45/pub?start=false&loop=false&delayms=60000)
 
   
-
+Para recuperar archivos borrados existen muchas aplicacioens de analisis forense. En linux tenemos por ejemplo **scalpel** del cual puedes descargart aqui el [manual](https://drive.google.com/file/d/1NrWzZPcnqWHNYcQNj44HtArTaCpwE7nV/view?usp=sharing)
  ## :pencil: Referencias
 http://dorumugs.blogspot.com/2013/01/file-system-geography-fat32.html 
 https://www.ifindsoft.com/recover-deleted-files-winhex.html 
