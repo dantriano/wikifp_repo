@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-14T16:10:17.349Z
+date: 2022-03-14T16:51:32.618Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -50,7 +50,7 @@ services:
 
 volumes:
   mongodb-data:
-  name: mongodb-data
+    name: mongodb-data
 networks:
   mongodb_network:
     name: mongodb_network
