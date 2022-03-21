@@ -2,13 +2,22 @@
 title: Proyecto Node Chat
 description: 
 published: true
-date: 2022-03-21T13:29:00.355Z
+date: 2022-03-21T16:29:02.822Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T13:23:56.701Z
 ---
 
-# Header
-Your content here
+# Proyecto Node Chat
 
-<iframe frameborder="0" style="width:100%;height:913px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Node%20chat.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1QndfLXY7C8prmS1csFpT_uBP3bRom22h%26export%3Ddownload"></iframe>
+Ralizar con NodeJs una plataforma de chat con diferentes salas. El usuario deberá de loguearse con username/password para poder visualizar la aplicación.
+
+El usuario podrá:
+- Elegir sala de chat
+- Hablar en una sala de chat
+- Listar salas de chat para ver el historial
+- Ver el historial de una sala de chat
+
+La comunicación dentro de cada chat se hará utilizando Sockets con [Socket.io](https://socket.io/)
+
+<iframe src="https://drive.google.com/file/d/1QndfLXY7C8prmS1csFpT_uBP3bRom22h/preview" width="640" height="480" allow="autoplay"></iframe>
