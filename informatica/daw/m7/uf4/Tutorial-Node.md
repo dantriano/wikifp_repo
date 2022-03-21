@@ -2,7 +2,7 @@
 title: Tutorial Node
 description: 
 published: true
-date: 2022-03-14T15:54:08.168Z
+date: 2022-03-21T16:36:30.599Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:15:45.937Z
@@ -17,6 +17,7 @@ dateCreated: 2022-03-09T15:15:45.937Z
 {.is-success}
 
 [https://docs.google.com/presentation/d/e/2PACX-1vTrlIVqCMTzYEIRMHK2WyqxgR3i7-eHB5XSPw_CWK6GTPDy_kQOjVdnJU3uuVLrPUD2kMAt7jDvEdVn/pub?start=false&loop=false#slide=id.p1](Presentacion Node)
+- [:pill: Enunciado tutorial Node](enunciado-tutorial-node)
 
 # Tutorial pas a pas de Node
 
