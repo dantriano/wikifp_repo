@@ -2,7 +2,7 @@
 title: Proyecto Node Chat
 description: 
 published: true
-date: 2022-03-21T16:29:02.822Z
+date: 2022-03-21T16:33:25.660Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-21T13:23:56.701Z
@@ -20,4 +20,4 @@ El usuario podrá:
 
 La comunicación dentro de cada chat se hará utilizando Sockets con [Socket.io](https://socket.io/)
 
-<iframe src="https://drive.google.com/file/d/1QndfLXY7C8prmS1csFpT_uBP3bRom22h/preview" width="640" height="480" allow="autoplay"></iframe>
+![node_chat.jpg](/informatica/daw/m7/uf4/node_chat.jpg){.align-center}
