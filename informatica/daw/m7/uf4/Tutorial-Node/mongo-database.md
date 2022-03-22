@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-22T16:09:30.489Z
+date: 2022-03-22T16:50:53.743Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -133,7 +133,7 @@ Puedes consultar [aqui](https://mongoosejs.com/docs/queries.html) mas queries
         })  
     };  
 
-module.exports{
+module.exports={
   add,
   list,
   find
