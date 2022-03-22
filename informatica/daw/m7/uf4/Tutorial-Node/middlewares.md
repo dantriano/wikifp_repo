@@ -2,7 +2,7 @@
 title: Node Middlewares
 description: 
 published: true
-date: 2022-03-22T16:09:10.584Z
+date: 2022-03-22T16:28:39.279Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-22T16:09:10.584Z
@@ -24,16 +24,22 @@ Modificaremos el controlador para utilizar las funciones como middlewares:
       	next();
     };  
     
+    var isMayor = (req, res, next)=>{  
+       if(req.body.edad>=18) req.isMayor=true
+       else req.isMayor=false
+    };
+
     //Metodo que devuelve un valor a la vista
     var view =  (req, res)=>{  
         if(req.result)
-      		res.sendFile(path.resolve('views/index.html'));
+      		res.sendFile(path.resolve('views/index.html'),{req.isMayor});
       	else
           res.sendFile(path.resolve('views/error.html'));
     };  
 
 module.exports{
   add,
+  isMayor,
   view
 }
 ```
@@ -53,5 +59,6 @@ var router = express.Router();
 //Link routes and functions  
 
     app.post('/isMayor', userCtrl.add);
+    app.post('/isMayor', userCtrl.isMayor);
     app.post('/isMayor', userCtrl.view);  
  ```
