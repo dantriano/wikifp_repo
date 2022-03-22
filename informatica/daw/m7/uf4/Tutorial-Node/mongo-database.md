@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-22T16:00:40.746Z
+date: 2022-03-22T16:01:47.693Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -115,20 +115,21 @@ Puedes consultar [aqui](https://mongoosejs.com/docs/queries.html) mas queries
     var add = (req, res)=>{  
         var user = new User({name: req.body.name, age: req.body.age});  
         user.save();  
-        res.end();  
+        console.log(user);
+      	return user;
     };  
   
     //find all people  
     var list = (req, res)=>{  
         User.find(function(err, users) {  
-            res.send(users);  
+            return users;  
         });  
     };  
   
     //find person by id  
     var find = (req, res)=>{  
         User.findOne({_id: req.params.id}, function(error, user) {  
-            res.send(user);  
+            return user;
         })  
     };  
 
@@ -153,7 +154,6 @@ var router = express.Router();
 //Link routes and functions  
 
     app.post('/user', chatCtrl.add);
-
     app.get('/users', chatCtrl.list);  
     app.get('/user/:id', chatCtrl.find);
  ```
