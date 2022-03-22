@@ -2,7 +2,7 @@
 title: Node - Routes & Views
 description: 
 published: true
-date: 2022-03-14T13:56:19.261Z
+date: 2022-03-22T15:59:24.380Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:38:49.818Z
@@ -48,8 +48,8 @@ Definiremos nuestro primer archivo de routes
 
 # Añadir nuevos elementros en nuestra aplicación
 
-```node
-  GNU nano 5.4                                                       app.js                                                                 
+```js
+//app.js                                                                 
 var express = require('express');
 var app = express();
 
