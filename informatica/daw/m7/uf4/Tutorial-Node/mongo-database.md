@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-14T18:27:05.802Z
+date: 2022-03-22T15:25:59.617Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -108,33 +108,44 @@ Puedes consultar [aqui](https://mongoosejs.com/docs/queries.html) mas queries
 
 ```js
 //controllers/user.js
-module.exports = function(app){  
   
     var User = require('../models/user');  
   
     //Create a new user and save it  
-    user = function(req, res){  
+    export.add = function(req, res){  
         var user = new User({name: req.body.name, age: req.body.age});  
         user.save();  
         res.end();  
     };  
   
     //find all people  
-    list = function(req, res){  
+    export.list = function(req, res){  
         User.find(function(err, users) {  
             res.send(users);  
         });  
     };  
   
     //find person by id  
-    find = (function(req, res) {  
+    export.find = (function(req, res) {  
         User.findOne({_id: req.params.id}, function(error, user) {  
             res.send(user);  
         })  
     });  
-  
-    //Link routes and functions  
-    app.post('/user', user);  
-    app.get('/users', list);  
-    app.get('/user/:id', find);
-}
+```
+Lo ultimo que nos queda es utilizar los controladores en el resto de nuestro programa. Por ejemplo en las rutas para asociar ciertas URL a determinadas acciones
+  ```js
+// routes/index.js
+
+//Definimos la ruta donde encontrar los controladores usando la libreria Path
+var path = require("path");
+var ctrlDir = path.resolve("controllers/");
+
+//Importamos el controllador
+var chatCtrl = require(path.join(ctrlDir, "user"));
+var router = express.Router();
+
+//Link routes and functions  
+    app.post('/user', chatCtrl.add);  
+    app.get('/users', chatCtrl.list);  
+    app.get('/user/:id', chatCtrl.find);
+ ```
