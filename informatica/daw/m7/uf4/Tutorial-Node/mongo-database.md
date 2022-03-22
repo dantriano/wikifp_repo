@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-22T15:29:17.976Z
+date: 2022-03-22T15:51:51.450Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -112,25 +112,31 @@ Puedes consultar [aqui](https://mongoosejs.com/docs/queries.html) mas queries
     var User = require('../models/user');  
   
     //Create a new user and save it  
-    exports.add = function(req, res){  
+    var add = (req, res)=>{  
         var user = new User({name: req.body.name, age: req.body.age});  
         user.save();  
         res.end();  
     };  
   
     //find all people  
-    exports.list = function(req, res){  
+    var list = (req, res)=>{  
         User.find(function(err, users) {  
             res.send(users);  
         });  
     };  
   
     //find person by id  
-    exports.find = (function(req, res) {  
+    var find = (req, res)=>{  
         User.findOne({_id: req.params.id}, function(error, user) {  
             res.send(user);  
         })  
-    });  
+    };  
+
+module.exports{
+  add,
+  list,
+  find
+}
 ```
 Lo ultimo que nos queda es utilizar los controladores en el resto de nuestro programa. Por ejemplo en las rutas para asociar ciertas URL a determinadas acciones
   ```js
