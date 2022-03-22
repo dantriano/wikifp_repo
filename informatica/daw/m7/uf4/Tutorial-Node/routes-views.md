@@ -2,7 +2,7 @@
 title: Node - Routes & Views
 description: 
 published: true
-date: 2022-03-22T15:59:24.380Z
+date: 2022-03-22T15:59:38.004Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-09T15:38:49.818Z
@@ -12,7 +12,7 @@ dateCreated: 2022-03-09T15:38:49.818Z
 
 Definiremos nuestro primer archivo de routes
 
-```node
+```js
 /*
   /routes/index.js
 */
