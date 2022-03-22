@@ -2,7 +2,7 @@
 title: Base de datos Mongo
 description: 
 published: true
-date: 2022-03-22T16:05:07.556Z
+date: 2022-03-22T16:09:30.489Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-14T16:10:17.349Z
@@ -148,12 +148,12 @@ var path = require("path");
 var ctrlDir = path.resolve("controllers/");
 
 //Importamos el controllador
-var chatCtrl = require(path.join(ctrlDir, "user"));
+var userCtrl = require(path.join(ctrlDir, "user"));
 var router = express.Router();
 
 //Link routes and functions  
 
-    app.post('/user', chatCtrl.add);
-    app.get('/users', chatCtrl.list);  
-    app.get('/user/:id', chatCtrl.find);
+    app.post('/user', userCtrl.add);
+    app.get('/users', userCtrl.list);  
+    app.get('/user/:id', userCtrl.find);
  ```
