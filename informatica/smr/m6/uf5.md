@@ -2,7 +2,7 @@
 title: Tallafocs
 description: 
 published: true
-date: 2022-03-30T12:02:21.241Z
+date: 2022-03-30T12:12:17.273Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-30T12:02:21.241Z
@@ -37,5 +37,8 @@ Errores en las aplicaciones: errores de computación, errores de entrada, etc.
 
 - [Pildora 1 - Monitoreo y detección de intrusos](monitorei-deteccion-intrusos)
 - [Pildora 2 - Firewall](Firewall)
-- [Pildora 3 - Proxy](Proxy)
+- [Pildora 3 - UFW](ufw)
+- [Pildora 4 - Iptables](iptables)
+- [Pildora 5 - Firewall Windows](firewall-windows)
+- [Pildora 6 - Proxy](Proxy)
 {.links-list}
