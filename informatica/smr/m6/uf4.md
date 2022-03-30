@@ -2,7 +2,7 @@
 title: UF4 - Seguridad Activa
 description: 
 published: true
-date: 2022-02-21T14:25:42.431Z
+date: 2022-03-30T19:00:17.925Z
 tags: 
 editor: markdown
 dateCreated: 2022-02-21T14:10:11.858Z
@@ -39,6 +39,6 @@ Errores en las aplicaciones: errores de computación, errores de entrada, etc.
 - [Pildora 2 - Plan de contingencia](plan-de-contingencia)
 - [Pildora 3 - Criptografia](criptografia)
 - [Pildora 4 - Antivirus](antivirus)
-- [Pildora 5 - Recuperacion de datos](recuperación-datos)
+- [Pildora 5 - Recuperacion de datos](recuperacion-datos)
 - [Pildora 6 - Seguridad en el correo](seguridad-correo)
 {.links-list}
