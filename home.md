@@ -2,7 +2,7 @@
 title: Wiki Col·laboratiu FP
 description: 
 published: true
-date: 2022-01-12T22:22:09.427Z
+date: 2022-03-30T19:10:20.355Z
 tags: 
 editor: markdown
 dateCreated: 2021-07-06T20:08:34.644Z
@@ -24,6 +24,13 @@ Aqui teniu un exemple de pindola per veure com quedaría:
 
 # Families profesionals
 
+
+<details>
+  <summary>Accions tutorials</summary>
+  
+  #### [Salut mental](/tutoria/salut-mental)
+  
+</details>
 
 <details>
 <summary>Informatica i comunicacions</summary>
