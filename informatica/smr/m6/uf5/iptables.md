@@ -2,7 +2,7 @@
 title: Firewall Iptables
 description: 
 published: true
-date: 2022-03-30T12:15:16.524Z
+date: 2022-03-30T12:15:31.020Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-30T12:15:16.524Z
@@ -29,5 +29,5 @@ dateCreated: 2022-03-30T12:15:16.524Z
   
   # :pencil: Exercicis
   
-1. [Firewalls](practica-iptables)
+1. [Practica Iptables](practica-iptables)
   
