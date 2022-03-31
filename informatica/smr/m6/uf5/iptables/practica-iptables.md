@@ -2,7 +2,7 @@
 title: Practica Iptables
 description: 
 published: true
-date: 2022-03-30T12:50:43.484Z
+date: 2022-03-31T18:12:31.294Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-30T12:40:45.180Z
@@ -95,10 +95,15 @@ Configura un script para poder tener todos estos filtros.
 8. Rechazamos todo el tráfico cuyo destino sea nuestra red LAN 10.0.0.0/24 y entre por la interfaz enp0s3 del Firewall.
 9. Denegamos SMTP, POP3 y FTP (correo electrónico y ftp) en la LAN 10.0.0.0/24 
 10. Denegamos SMTP, POP3 y FTP (correo electrónico y ftp) pero permitimos que lo utilice ordenador 10.0.0.20 
-10. Volem descartar una connexió concretament la pàgina www.marca.com (nslookup / http://www.hcidata.info/) mitjançant iptables ja que volem que les altres persones que es connecten aquest ordinador aprofiten més el temps.
+11. Volem descartar una connexió concretament la pàgina www.marca.com (nslookup / http://www.hcidata.info/) mitjançant iptables ja que volem que les altres persones que es connecten aquest ordinador aprofiten més el temps.
+12. Listamos todas las reglas que se aplican con: iptables -L -n
 
 
 # Comprobamos cómo quedan las reglas
-iptables -L -n
+
+Documenta la demostración que el iptables funciona en los pasos:
+- 2
+- 5 (puedes comprobarlo con un NMAP)
+- 7
 
 :pencil2: Creat per Dan Triano {.text-right}
