@@ -2,7 +2,7 @@
 title: Instalación Socket Servidor
 description: 
 published: true
-date: 2022-04-04T11:32:57.985Z
+date: 2022-04-04T11:34:36.720Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-04T11:28:57.040Z
@@ -50,7 +50,11 @@ const io = new Server(socketServer, {
   },
 });
 ```
-
+En nuestro app.js llamamos al archivo io.js para que inicialice.
+```js
+//app.js
+require("./io");
+```
 # First connection
 
 Ahora que nuestro servidor está escuchando todas las peticiones de conexión de los clientes, nos toca programar los comportamientos que tendrá con cada **evento**.
