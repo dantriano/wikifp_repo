@@ -2,7 +2,7 @@
 title: Practica Iptables
 description: 
 published: true
-date: 2022-03-31T18:12:31.294Z
+date: 2022-04-04T14:49:08.086Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-30T12:40:45.180Z
@@ -79,6 +79,11 @@ IP: 10.0.0.10
 NetMask: 255.255.255.0
 **Gategway: 10.0.0.1**  //Gracias a esta linea podemos conectarnos a Internet a traves del Firewall
 DNS: 8.8.8.8
+
+> Es necesario definir el DNS en el host para que podais tener internet
+> /etc/resolv.conf
+> nameserver 8.8.8.8
+{.is-danger}
 
 
 # Configurar Firewall con filtros
