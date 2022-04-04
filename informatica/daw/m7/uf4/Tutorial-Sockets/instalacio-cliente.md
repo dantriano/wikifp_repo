@@ -2,7 +2,7 @@
 title: Instalación Socket Cliente
 description: 
 published: true
-date: 2022-04-04T14:37:16.930Z
+date: 2022-04-04T15:53:25.320Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-04T14:37:16.930Z
@@ -42,31 +42,3 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 Con esto, cada vez que cargamos la pagina con este script veremos que se produce la conexión (permanente) entre el cliente y el servidor.
 
-# Eventos
-
-Ahora que ya tenemos la conexión establecida deberemos de configurar la parte del cliente para que sepa **enviar** y **recibir** los mensajes intercambiados por el servidor.
-
-![bidirectional-communication-socket.png](/informatica/daw/m7/uf4/bidirectional-communication-socket.png){.align-center}
-
-```js
-//Accion a realizar cuando se da al boton de enviar
-document.getElementById("send").addEventListener("submit", (e) => {
-    //Obtenemos todos los elementos del formulario para trabajar con ellos
-    e.preventDefault();
-    var msgInput = document.getElementById("msg");
-    var chatBox = document.getElementById("chat");
-    var msg = msgInput.value;
-
-    //Mostramos el mensaje en la ventana para el usuario que lo envia
-    chatBox.innerHTML += `Yo: ${msgInput.value}<br>`;
-
-    // Definimos el mensaje que vamos a enviar
-    var toSend = { user: "Yo", text: msg };
-
-    //Enviamos el mensaje al servidor utilizando el evento "broadcast" definido por nosotros
-    socket.emit("broadcast", toSend);
-
-  });
-
-
-```
