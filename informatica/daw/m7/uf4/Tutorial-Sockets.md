@@ -2,7 +2,7 @@
 title: Tutorial Sockets
 description: 
 published: true
-date: 2022-04-04T11:15:36.831Z
+date: 2022-04-04T11:15:59.577Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-04T11:15:36.831Z
@@ -13,7 +13,7 @@ dateCreated: 2022-04-04T11:15:36.831Z
 
 
 > ### Ejercicio
-> [https://github.com/dantriano/m7-node-tutorial](https://github.com/dantriano/m7-node-tutorial)
+> [https://gitlab.com/dantriano/m7-node-sockets](https://gitlab.com/dantriano/m7-node-sockets)
 {.is-success}
 
 
