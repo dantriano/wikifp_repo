@@ -2,7 +2,7 @@
 title: Instalación Socket Servidor
 description: 
 published: true
-date: 2022-04-04T11:28:57.040Z
+date: 2022-04-04T11:32:57.985Z
 tags: 
 editor: markdown
 dateCreated: 2022-04-04T11:28:57.040Z
@@ -72,3 +72,26 @@ El destinatario de ese mensaje será el cliente que se conectó porque si os fij
 **Dos cliente NUNCA pueden comunicarse directamente sin pasar por el servidor**
 {.is-danger}
 
+Mensajes broadcast
+
+Si nuestra intención es enviar un mensajes a todos los clientes conectados a nuestro servidor deberemos de utilizar el metodo **broadcast**. Especialmente útil si queremos por ejemplo, enviar un mensaje a un chat público.
+
+```js
+io.on("connection", (socket) => {
+  console.log("Nuevo cliente conectado");
+  socket.emit("connected", {
+    msg: "Bienvenido al chat",
+  });
+  //Este socket tendrá un atributo user con valor Pedro,
+  //desde la primera conexión hasta que se cierre el socket
+  if (!socket.user) socket.user = "Pedro";
+
+  //Todos los clientes que estén escuchando el evento "toChat" recibiran el mensaje enviado por el cliente que lanzó el mensaje
+  socket.on("broadcast", (data) => {
+    socket.broadcast.emit("toChat", data);
+  });
+});
+```
+
+> Los mensajes broadcast se envian a todos los usuarios **excepto** aquel que inició el evento. En nuestro caso, el usuario que está asociado al **on(connection)
+{.is-danger}
